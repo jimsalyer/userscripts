@@ -6,6 +6,12 @@
     "type": "git",
     "url": "git+https://github.com/jimsalyer/tampermonkey-scripts.git"
   },
+  "scripts": {
+    "format": "prettier -c .",
+    "format:fix": "prettier -w .",
+    "lint": "eslint \"**/*.{cjs,js,mjs}\"",
+    "lint:fix": "npm run lint -- --fix"
+  },
   "author": {
     "email": "jim.salyer@gmail.com",
     "name": "Jim Salyer"
@@ -14,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/jimsalyer/tampermonkey-scripts/issues"
   },
-  "homepage": "https://github.com/jimsalyer/tampermonkey-scripts#readme"
+  "homepage": "https://github.com/jimsalyer/tampermonkey-scripts#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "3.0.0"
+  }
 }
