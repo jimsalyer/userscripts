@@ -1,3 +1,3 @@
-## Tampermonkey Scripts
+## Userscripts
 
-This repository is essentially a place to store and easily manage scripts for Tampermonkey across multiple systems.
+This repository is essentially a place to store and easily manage userscripts across multiple systems.
