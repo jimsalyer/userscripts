@@ -1,6 +1,5 @@
 const globals = require('globals');
 const js = require('@eslint/js');
-const prettier = require('eslint-plugin-prettier');
 
 module.exports = [
   js.configs.recommended,
@@ -13,11 +12,6 @@ module.exports = [
         ...globals.jest,
         ...globals.node,
       },
-    },
-    plugins: { prettier },
-    rules: {
-      'no-unused-vars': 'warn',
-      'prettier/prettier': 'warn',
     },
   },
 ];
