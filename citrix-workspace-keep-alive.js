@@ -16,21 +16,15 @@
   const FIND_BUTTON_INTERVAL = 30000;
 
   function findAndClickButton() {
-    console.log('Looking for the "Keep me logged in" button...');
-    let buttonFound = false;
+    console.info('Looking for the "Keep me logged in" button...');
     for (const button of document.querySelectorAll(
       'div[data-active-modal] button',
     )) {
       if (button.textContent.includes('Keep me logged in')) {
-        console.log('Button found. Clicking it...');
-        buttonFound = true;
+        console.info('Button found. Clicking it...');
         button.click();
         break;
       }
-    }
-
-    if (!buttonFound) {
-      console.log('Button not found.');
     }
   }
 
