@@ -4,14 +4,14 @@
   "description": "Shared userscripts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimsalyer/tampermonkey-scripts.git"
+    "url": "git+https://github.com/jimsalyer/userscripts.git"
   },
   "scripts": {
-    "format": "npx prettier -c .",
-    "format:fix": "npx prettier -w .",
-    "lint": "npx eslint \"**/*.{cjs,js,mjs}\"",
-    "lint:fix": "npx eslint --fix \"**/*.{cjs,js,mjs}\"",
-    "test": "npx jest"
+    "format": "prettier -c .",
+    "format:fix": "prettier -w .",
+    "lint": "eslint \"**/*.{cjs,js,mjs}\"",
+    "lint:fix": "eslint --fix \"**/*.{cjs,js,mjs}\"",
+    "test": "jest"
   },
   "author": {
     "email": "jim.salyer@gmail.com",
@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimsalyer/tampermonkey-scripts/issues"
+    "url": "https://github.com/jimsalyer/userscripts/issues"
   },
-  "homepage": "https://github.com/jimsalyer/tampermonkey-scripts#readme",
+  "homepage": "https://github.com/jimsalyer/userscripts#readme",
   "devDependencies": {
     "@types/eslint": "^8.56.10",
     "@types/jest": "^29.5.12",

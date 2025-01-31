@@ -4,8 +4,8 @@
 // @version      1.0.0
 // @description  Automatically keep your Citrix Workspace login session alive.
 // @author       You
-// @match        https://efleets.cloud.com/Citrix/StoreWeb/*
-// @icon         https://efleets.cloud.com/Citrix/StoreWeb/assets/workspace/favicon.png
+// @match        https://[REPLACE].cloud.com/Citrix/StoreWeb/*
+// @icon         https://[REPLACE].cloud.com/Citrix/StoreWeb/assets/workspace/favicon.png
 // @grant        none
 // @sandbox      JavaScript
 // ==/UserScript==
