@@ -17,7 +17,7 @@ describe('Citrix Workspace Keep Alive', () => {
       </div>
     `;
 
-    require('./citrix-keep-alive');
+    require('./citrix-keep-alive.user');
 
     const button = document.querySelector('div[data-active-modal] button');
     let buttonClicked = false;
@@ -46,7 +46,7 @@ describe('Citrix Workspace Keep Alive', () => {
       </div>
     `;
 
-    require('./citrix-keep-alive');
+    require('./citrix-keep-alive.user');
 
     const button = document.querySelector('div[data-active-modal] button');
     let buttonClicked = false;
