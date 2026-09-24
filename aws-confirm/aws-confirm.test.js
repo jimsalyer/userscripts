@@ -17,7 +17,7 @@ describe('AWS Auto Confirm', () => {
       </div>
     `;
 
-    require('./aws-auto-confirm');
+    require('./aws-confirm');
 
     const confirmTextbox = document.querySelector(
       'input[type=text][placeholder]',
@@ -38,7 +38,7 @@ describe('AWS Auto Confirm', () => {
       </div>
     `;
 
-    require('./aws-auto-confirm');
+    require('./aws-confirm');
 
     const confirmTextbox = document.querySelector(
       'input[type=text][placeholder]',

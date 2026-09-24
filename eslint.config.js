@@ -2,9 +2,11 @@ const globals = require('globals');
 const js = require('@eslint/js');
 
 module.exports = [
-  js.configs.recommended,
   {
     ignores: ['coverage/', 'node_modules/'],
+  },
+  js.configs.recommended,
+  {
     languageOptions: {
       ecmaVersion: 'latest',
       globals: {

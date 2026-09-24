@@ -8,10 +8,6 @@ describe('Jira Issue Links in New Tabs', () => {
   });
 
   it('updates all issue links to open in new tabs', () => {
-    document.addEventListener = jest
-      .fn()
-      .mockImplementationOnce((event, callback) => callback());
-
     document.body.innerHTML = `
       <div class="js-detailview js-issue">
         <a href="#">Issue 1</a>
@@ -24,7 +20,7 @@ describe('Jira Issue Links in New Tabs', () => {
       </div>
     `;
 
-    require('./jira-issue-links-in-new-tabs');
+    require('./jira-new-tab-links');
 
     jest.advanceTimersToNextTimer();
 
