@@ -11,6 +11,7 @@ module.exports = [
       ecmaVersion: 'latest',
       globals: {
         ...globals.browser,
+        ...globals.greasemonkey,
         ...globals.jest,
         ...globals.node,
       },
