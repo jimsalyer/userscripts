@@ -12,6 +12,6 @@ module.exports = {
   resetMocks: true,
   resetModules: true,
   restoreMocks: true,
-  setupFiles: ['<rootDir>/jest.setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testEnvironment: 'jsdom',
 };
